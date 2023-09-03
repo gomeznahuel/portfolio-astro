@@ -7,6 +7,11 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "Telegram Bot: Expense Tracker",
+    techs: ["TypeScript", "node-telegram-bot-api", "googleapis", "dotenv"],
+    link: "https://github.com/gomeznahuel/expense-tracker",
+  },
+  {
     title: "To-do list!",
     techs: ["Node JS (Express JS)", "TypeScript", "Mongoose", "MongoDB", "Swagger"],
     link: "https://github.com/gomeznahuel/to-do-list",
