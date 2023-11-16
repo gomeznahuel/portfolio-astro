@@ -7,6 +7,11 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "Library: PW Generator",
+    techs: ["TypeScript", "Babel", "Jest"],
+    link: "https://www.npmjs.com/package/pw-generator",
+  },
+  {
     title: "Twitch Bot",
     techs: ["Node JS", "TypeScript", "JavaScript", "dotenv"],
     link: "https://github.com/almanoduerme/twitch-bot",
