@@ -6,7 +6,7 @@ slug: "hexagonal-architecture"
 isPublish: true
 ---
 
-# Hexagonal Architecture: A Guide to Clean and Maintainable Software Design
+## Hexagonal Architecture: A Guide to Clean and Maintainable Software Design
 
 In the world of software development, the quest for creating systems that are both maintainable and adaptable is a perpetual challenge. One architectural pattern that has gained prominence for its ability to achieve these goals is the Hexagonal Architecture, also known as the Ports and Adapters pattern. This innovative approach places a strong emphasis on separation of concerns, allowing developers to build systems that are not only easier to understand and maintain but also more resilient to change. In this article, we will delve into the core concepts of Hexagonal Architecture and explore its benefits in creating clean and maintainable software.
 
@@ -66,7 +66,7 @@ Implementing Hexagonal Architecture requires careful planning and consideration.
 
 6. **Evolution and Growth:** As the application evolves, focus on adding new ports and adapters to accommodate new requirements while keeping the core logic untouched.
 
-```
+```typescript
 project-root/
 ├── src/
 │   ├── adapters/
